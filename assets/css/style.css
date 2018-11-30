@@ -1,0 +1,246 @@
+html {
+    padding:0px;
+    margin:0px;
+}
+
+
+body {
+    margin:0 auto;
+    padding:0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/bananas.png');
+    background-size:contain;
+}
+
+a {
+    text-decoration:none;
+    color:#777777;
+}
+
+a:hover {
+    color:#4aaaa5;
+}
+
+img {
+    height:250px;
+    width:200px;
+    padding:20px 20px 0px 20px;
+    float:left;
+    shape-outside:square();
+}
+
+.container {
+    width:920px;
+    max-width:920px;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:60px;
+    background-color:white !important;
+    padding:20px;
+}
+
+.navbar {
+    height:90px;
+    width:100%;
+    background-color:white;
+    margin-bottom:10px;
+    border-bottom:1px solid #cccccc;
+}
+
+.navContainer {
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+.navHeader {
+    position:absolute;
+    margin-top:34px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    color:white;
+    padding:20px;
+    justify-content: flex-end;
+}
+
+.navButtons {
+    margin-top:55px;
+    float:right;
+}
+
+.navButtons li {
+    display:inline-block;
+    margin-left:20px;
+    padding-right:20px;
+    border-right:1px solid #dddddd;
+    color:#777777;
+}
+
+.bodyHeader {
+    padding:20px;
+    border-bottom:2px solid #cccccc;
+    color:#4aaaa5;
+}
+
+span {
+    padding-top:10px;
+    display:block;
+    line-height:1.9em;
+}
+
+.footer {
+    position:relative;
+    height:120px;
+    width:100%;
+    text-align:center;
+    background-color:#666666;
+    color:#4aaaa5;
+    border-top:5px solid #4aaaa5;
+    bottom:0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    padding:20px;
+    line-height:1.05em;
+}
+
+input {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    border-radius:2px;
+    padding:6px 8px;
+    border:1px solid #dddddd;
+    box-shadow: none;
+    margin-top:10px !important;
+}
+
+label {
+    position:relative;
+}
+
+textarea {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:120px;
+    display:flex;
+    justify-content: center;
+    border-color:#dddddd;
+    border-radius:2px;
+    margin-top:10px !important;
+    padding:6px 8px;
+}
+
+.formFooter {
+    position:absolute;
+    height:120px;
+    width:100%;
+    text-align:center;
+    background-color:#666666;
+    color:#4aaaa5;
+    border-top:5px solid #4aaaa5;
+    bottom:0px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thumbnail {
+    padding:20px;
+    width:28%;
+    display:flex;
+    justify-content: space-between;;
+    align-items: center;
+}
+
+.marginTop20 {
+    margin-top:20px;
+}
+
+.gallery {
+    background-color:white;
+    width:100%;
+    display:flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.gallery img {
+    height:225px;
+    width:225px;
+}
+
+.portfolioTitleOne {
+    position: absolute;
+    margin-top:200px;
+    margin-left:20px;
+    height:40px;
+    width:225px;
+    background-color:#4aaaa5;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolioTitleTwo {
+    position: absolute;
+    margin-top:200px;
+    margin-left:285px;
+    height:40px;
+    width:225px;
+    background-color:#4aaaa5;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegularFooter {
+    height:120px;
+    width:100%;
+    text-align:center;
+    background-color:#666666;
+    color:#4aaaa5;
+    border-top:5px solid #4aaaa5;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#hiddenEl {
+    display: none;
+}
+
+
+
+/* BEGINNING OF MEDIA QUERIES */
+
+ @media only screen and (max-width: 980px) {
+    .container{
+        width:90%;
+    }
+} 
+
+
+
+@media only screen and (max-width: 768px) {
+        .container{
+        width:90%;
+    }
+} 
+
+
+@media only screen and (max-width: 640px) {
+    .container {
+            width:90%;
+        }
+} 
